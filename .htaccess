@@ -1,0 +1,9 @@
+#+HTTPAuth
+AuthType Basic
+AuthName "Authentication Required"
+AuthUserFile "/home/sites/11a/f/f141949228//public_html//.htpasswd"
+Require valid-user
+Order allow,deny
+Allow from all
+#-HTTPAuth
+
